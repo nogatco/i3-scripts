@@ -21,6 +21,6 @@ def joke():
         except Error:
             #in that case retry.
             print("error:   ", str(Error))
-            #joke()
+            joke()
 
 joke()
